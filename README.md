@@ -9,9 +9,9 @@ The app is using `nodemon`. Any changes made (and saved) will cause the server t
 Navigate to the `sql/connections.js` file and alter the following fields to reflect your database setup:
 
 ```
-  host: 'localhost',
+  host: '34.66.47.15',
   user: 'root',
-  password: 'password',
+  password: '342819',
   database: 'admin'
 ```
 
@@ -46,7 +46,7 @@ _This is a one-time setup step_
 * Allow App Engine to be created. This could take a few minutes
 
 Alternatively, look at the following documentation under "Before you begin". Steps 1 & 2
-https://cloud.google.com/appengine/docs/standard/go/building-app/creating-your-application
+
 
 ### Download the Cloud SDK
 _This is a one-time setup step_
